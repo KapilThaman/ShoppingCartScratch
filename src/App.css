@@ -1,0 +1,141 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.outerdiv{
+  width: 70%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.coverouter{
+display: flex;
+justify-content: space-around;
+}
+
+.mainDiv{
+display: flex;
+max-width: 100%;
+flex-direction: column;
+justify-content: space-around;
+}
+.logoImg{
+  width: 70px;
+  height: 70px;
+}
+.outerdiv button{
+  height: 40px;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.cartButton{
+  width: 70px;
+  
+  
+  
+}
+
+.inputSearch{
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.gridArea{
+  width: 100%;
+  height: 100vh;
+  margin-top: 30px;
+  background-color: rgb(247, 245, 245);
+  position: relative;
+  border-radius: 5%;
+  
+}
+.addButton{
+position: absolute;
+bottom: -140px;
+right: 45px;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+cursor: pointer;
+} 
+.gridFormat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid black ;
+  border-radius: 20px;
+  padding: 10px;
+}
+.imageURl{
+  width: 60px;
+  height: 60px;
+}
+.nameInput,.descriptionInput,.categoryInput,.priceInput,.imageURLInput{
+  width: 20%;
+  height: 25px;
+  padding: 2px;
+  
+}
+.addItemsdiv{
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  border: 1px solid black;
+  padding: 100px;
+  border-radius: 20px;
+}
+.dataContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product_Image{
+  width: 70px;
+  height: 70px;
+}
+.gridFormat2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.addButtonDiv{
+  display: flex;
+  flex-direction: column;
+}
+.gridFormatList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid black ;
+  border-radius: 20px;
+  padding: 10px;
+}
+.dataContainerList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
